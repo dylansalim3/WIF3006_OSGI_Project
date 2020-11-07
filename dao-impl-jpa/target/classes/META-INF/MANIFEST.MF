@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1604675559969
+Bundle-ManifestVersion: 2
+Bundle-Name: dao-impl-jpa
+Bundle-SymbolicName: org.osgi.enroute.examples.microservice.dao-impl-j
+ pa
+Bundle-Version: 0.0.1.202011061512
+Created-By: 11.0.9 (Oracle Corporation)
+Import-Package: javax.persistence,javax.persistence.criteria,org.osgi.
+ enroute.examples.microservice.dao;version="[1.0,1.1)",org.osgi.enrout
+ e.examples.microservice.dao.dto;version="[1.0,2)",org.osgi.service.tr
+ ansaction.control;version="[1.0,2)",org.osgi.service.transaction.cont
+ rol.jpa;version="[1.0,2)",org.slf4j;version="[1.7,2)",org.hibernate.p
+ roxy,javassist.util.proxy
+Meta-Persistence: META-INF/persistence.xml
+Private-Package: org.osgi.enroute.examples.microservice.dao.impl.jpa,o
+ rg.osgi.enroute.examples.microservice.dao.impl.jpa.entities
+Provide-Capability: osgi.service;objectClass:List<String>="org.osgi.en
+ route.examples.microservice.dao.AddressDao",osgi.service;objectClass:
+ List<String>="org.osgi.enroute.examples.microservice.dao.PersonDao"
+Require-Capability: osgi.service;filter:="(objectClass=org.osgi.servic
+ e.transaction.control.TransactionControl)";effective:=active,osgi.ser
+ vice;filter:="(objectClass=org.osgi.service.transaction.control.jpa.J
+ PAEntityManagerProvider)";effective:=active,osgi.extender;filter:="(&
+ (osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))",o
+ sgi.extender;filter:="(&(osgi.extender=osgi.jpa)(version>=1.1.0)(!(ve
+ rsion>=2.0.0)))",osgi.contract;osgi.contract=JavaJPA;filter:="(&(osgi
+ .contract=JavaJPA)(version=2.1.0))",osgi.ee;filter:="(&(osgi.ee=JavaS
+ E)(version=1.8))"
+Service-Component: OSGI-INF/org.osgi.enroute.examples.microservice.dao
+ .impl.jpa.AddressDaoImpl.xml,OSGI-INF/org.osgi.enroute.examples.micro
+ service.dao.impl.jpa.ComponentImpl.xml,OSGI-INF/org.osgi.enroute.exam
+ ples.microservice.dao.impl.jpa.PersonDaoImpl.xml
+Tool: Bnd-4.1.0.201810181252
+
