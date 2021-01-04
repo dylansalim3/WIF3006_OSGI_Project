@@ -1,2 +1,0 @@
-com/fitness/idealweight/IdealWeightInterface.java
- com.fitness.idealweight.IdealWeightInterface

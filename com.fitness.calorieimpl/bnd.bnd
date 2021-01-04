@@ -1,6 +1,7 @@
--buildpath: \
+Import-Package: com.fitness.calorie;version='1.0.0',\
+	com.fitness.base;version='1.0.0'-
+
+buildpath: \
 	org.osgi.service.component.annotations;version='1.4.0',\
 	com.fitness.calorie;version=latest,\
 	com.fitness.base;version=latest
-Import-Package: com.fitness.calorie;version='1.0.0',\
-	com.fitness.base;version='1.0.0'

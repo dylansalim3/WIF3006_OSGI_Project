@@ -1,4 +1,0 @@
-com/fitness/web/Assessment.java
- com.fitness.web.Assessment
-com/fitness/web/Activator.java
- com.fitness.web.Activator

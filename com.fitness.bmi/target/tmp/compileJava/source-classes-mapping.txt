@@ -1,2 +1,0 @@
-com/fitness/bmi/BmiInterface.java
- com.fitness.bmi.BmiInterface

@@ -1,2 +1,0 @@
-com/fitness/bmiimpl/BmiImpl.java
- com.fitness.bmiimpl.BmiImpl
