@@ -1,0 +1,4 @@
+com/fitness/calorieimpl/CalorieEquation.java
+ com.fitness.calorieimpl.CalorieEquation
+com/fitness/calorieimpl/CalorieImpl.java
+ com.fitness.calorieimpl.CalorieImpl

@@ -1,0 +1,3 @@
+Import-Package: com.fitness.base;version='1.0.0'
+Export-Package: com.fitness.calorie
+-buildpath: com.fitness.base;version=latest

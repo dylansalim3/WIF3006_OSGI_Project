@@ -1,1 +1,10 @@
-.vscode
+*.bak
+/.metadata/
+/.recommenders/
+Archive
+.DS_Store
+.*.swp
+/.gradle/
+/reports/
+/generated/
+.to

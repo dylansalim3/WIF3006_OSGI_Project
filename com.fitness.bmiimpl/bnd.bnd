@@ -1,0 +1,4 @@
+-buildpath: \
+	org.osgi.service.component.annotations;version='1.4.0',\
+	com.fitness.bmi;version=latest
+Import-Package: com.fitness.bmi;version='1.0.0'

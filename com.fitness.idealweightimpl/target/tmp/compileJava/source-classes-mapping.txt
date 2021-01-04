@@ -1,0 +1,2 @@
+com/fitness/idealweightimpl/IdealWeightImpl.java
+ com.fitness.idealweightimpl.IdealWeightImpl

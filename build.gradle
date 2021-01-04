@@ -1,0 +1,13 @@
+tasks.named('wrapper') {
+  jarFile = rootProject.file('.gradle-wrapper/gradle-wrapper.jar')
+}
+
+allprojects {
+  if (project.name.startsWith("com.fitness")) {
+    task copy(type: Copy) {
+      from('target')
+      into('../karaf-runtime/deploy')
+      include('*.jar')
+    }
+  }
+}
