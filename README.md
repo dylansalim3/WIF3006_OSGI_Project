@@ -20,7 +20,7 @@
 2. the web app is deployed at\
     http://localhost:8181
 
-## Dependecies
+## Dependencies
 - Apache Karaf 4.2.10
 - Ops4j Pax-Web 7.2.19
 - Jetty 9.4.31
