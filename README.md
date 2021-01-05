@@ -5,11 +5,11 @@
 ## Build
 1. run the build script at project folder
     ```$xslt
-    gradle clean build
+    ./gradlew clean build
     ```
 2. copy the bundle jar files to karaf deploy folder
     ```$xslt
-    gradle copy
+    ./gradlew copy
     ```
 
 ## Run
